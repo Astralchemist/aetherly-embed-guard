@@ -1,0 +1,48 @@
+{
+  "name": "aetherly-embed-guard",
+  "version": "0.1.0",
+  "description": "Reverse-proxy + injected guard script that lets you embed third-party video providers in an iframe without the tab-hijack, popup, and top-window redirect ads escaping the sandbox. Zero dependencies, Web Fetch API native.",
+  "keywords": [
+    "iframe",
+    "sandbox",
+    "embed",
+    "popup-blocker",
+    "redirect-guard",
+    "video",
+    "proxy",
+    "nextjs",
+    "cloudflare-workers"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.41",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Astralchemist/aetherly-embed-guard.git"
+  }
+}
