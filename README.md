@@ -1,5 +1,6 @@
 # aetherly-embed-guard
 
+[![CI](https://github.com/Astralchemist/aetherly-embed-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/Astralchemist/aetherly-embed-guard/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/aetherly-embed-guard.svg)](https://www.npmjs.com/package/aetherly-embed-guard)
 [![npm downloads](https://img.shields.io/npm/dm/aetherly-embed-guard.svg)](https://www.npmjs.com/package/aetherly-embed-guard)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
