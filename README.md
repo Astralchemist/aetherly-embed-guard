@@ -108,6 +108,10 @@ createEmbedGuardHandler({
 - The guard script runs *inside* the proxied document. It cannot prevent every escape (a deeply-nested iframe loading its own document is out of scope), but it stops every common ad-injection pattern those providers have shipped over the last 2+ years.
 - This does not bypass DRM, CDN signing, or geo-restrictions — it's purely a UX hardening layer on top of *publicly accessible* embed pages.
 
+## Disclaimer
+
+This library is provided as infrastructure for safely embedding third-party iframe content. Users are responsible for ensuring they have the right to embed and proxy the content they target. The authors do not endorse any specific use case and make no representation about the legality of upstream sources.
+
 ## License
 
 MIT
