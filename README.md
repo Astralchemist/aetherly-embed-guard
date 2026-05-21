@@ -1,6 +1,11 @@
 # aetherly-embed-guard
 
-Reverse-proxy + in-iframe guard script for safely embedding third-party video providers (`vidsrc.*`, `2embed.*`, `embed.su`, `vidfast.pro`, `vidlink.pro`, etc.) without their popunder, tab-hijack, and top-window-redirect ads escaping the iframe.
+[![npm version](https://img.shields.io/npm/v/aetherly-embed-guard.svg)](https://www.npmjs.com/package/aetherly-embed-guard)
+[![npm downloads](https://img.shields.io/npm/dm/aetherly-embed-guard.svg)](https://www.npmjs.com/package/aetherly-embed-guard)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Bundle size](https://img.shields.io/bundlephobia/minzip/aetherly-embed-guard)](https://bundlephobia.com/package/aetherly-embed-guard)
+
+Reverse-proxy + in-iframe guard script for safely embedding third-party video providers (`vidsrc.*`, `2embed.*`, `vidfast.pro`, `vidlink.pro`, etc.) without their popunder, tab-hijack, and top-window-redirect ads escaping the iframe.
 
 Zero dependencies, Web Fetch API native — works in Next.js App Router, Cloudflare Workers, Bun, Deno.
 
